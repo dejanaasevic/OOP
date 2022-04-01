@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+li,a,button{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #EDF0F1;
+    text-decoration: none
+}
+
+header{
+     background-color: #000000;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 30px 10%
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.icons{
+    list-style: none;
+}
+.icons li{
+    display: inline-block;
+    padding: 10px 5px;
+}
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a:hover {
+    color:#D3FBD8;
+}
+button{
+    padding: 9px 25px;
+    margin-left: 20px;
+    background-color: rgba(156, 194, 161,1);
+    border: none;
+    border-radius:50px;
+    cursor: pointer;
+}
+.btn{
+margin-left: 0px;
+margin-top:10px;
+    font-size: 21px;
+    font-size: 16px;
+}
+.aboutus {
+    background-color: #000000;
+}
+button:hover{
+      background-color: rgba(156, 194, 161,0.7);
+}
+.banner-area{
+  background-image:url(homeimg.png);
+  height: 650px;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.content-area{
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.content{
+    text-align: left;
+    padding: 100px;
+    color: #FFFFFF;
+    font-family: 'Lora', serif;
+}
+.content h1{
+    font-size: 80px;
+}
+
+.content p{
+    font-size: 20px;
+}
+.contact{
+    background-color: black;
+}
+
+.moto{
+  background:#080808;
+  height: 300px;
+  width: 100%;
+    padding: 100px 100px;
+}
+
+.moto-content p{
+    text-align:left;
+    color: #FFFFFF;
+    font-size: 40px;
+    justify-content: center;
+}
+.headingaboutus{
+    height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    padding-top: 50px;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.headingcontactus{
+    height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    padding-top: 50px;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    padding: 30px;
+}
+.headingaboutus span{
+    color: rgba(156, 194, 161,1);
+}
+.headingcontactus span{
+     color: rgba(156, 194, 161,1);
+}
+    
+
+.heading {
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    padding-top: 50px;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.heading span{
+    color: rgba(156, 194, 161,1);
+}
+.contactdata{
+     flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+.contactdata p{
+    font-family: 'Lora', serif;
+    color: white;
+    text-align: justify;
+    font-size: 21px;
+    padding-bottom: 5px;
+    justify-content: center;
+    
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu .box-container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   
+}
+
+.menu .box-container .box{
+    padding:5rem;
+    text-align: center;
+     border-width: thin;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    color: #000000;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: #000000;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    color: rgba(156, 194, 161,1);
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.menu .box-container .box:hover{
+    background:#000000;
+    color: white;
+    
+}
+.menu .box-container .box h3:hover{
+    color: white;
+}
+.menu .box-container .box .price:hover{
+    color:white;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.menu .box-container .box:hover > *{
+    color:var(--black);
+}
+.about .row{
+    display: flex;
+    align-items: center;
+}
+
+.about .row .content{
+    flex: auto;
+    padding:20px 10px;
+}
+.podnaslov{
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    padding-top:10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(156, 194, 161,1);
+}
+.contenttekst p{
+    font-family: 'Lora', serif;
+    color: white;
+    text-align:justify;
+    font-size: 19px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+.contenttekst{
+    height: 300px;
+    padding-bottom: 200px;
+}
+footer p{
+    padding-top:40px;
+}
+footer{
+    text-align: center;
+    background-color: #080808;
+    height: 100px;
+}
