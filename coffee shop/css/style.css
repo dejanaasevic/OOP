@@ -20,11 +20,13 @@ header{
     display: flex;
     justify-content:flex-end;
     align-items: center;
-    padding: 30px 10%
+    padding: 30px 10%;
+    padding-left: 100px;
 }
 .logo{
     cursor: pointer;
     margin-right: auto;
+    margin-left: inherit;
 }
 .icons{
     list-style: none;
@@ -182,32 +184,32 @@ button:hover{
 }
 
 .menu .box-container .box{
-    padding:5rem;
+    padding:80px;
     text-align: center;
-     border-width: thin;
+    border-width: thin;
     border-color: black;
     border-style: solid;
 }
 
 
 .menu .box-container .box img{
-    height: 10rem;
+    height: 160px;
 }
 
 .menu .box-container .box h3{
     color: #000000;
-    font-size: 2rem;
+    font-size: 32px;
     padding:1rem 0;
 }
 
 .menu .box-container .box .price{
     color: #000000;
-    font-size: 2.5rem;
-    padding:.5rem 0;
+    font-size:40px;
+    padding:8px 0;
 }
 
 .menu .box-container .box .price span{
-    font-size: 1.5rem;
+    font-size: 24px;
     color: rgba(156, 194, 161,1);
     text-decoration: line-through;
     font-weight: lighter;
@@ -223,8 +225,8 @@ button:hover{
 }
 .menu .box-container .box .price:hover{
     color:white;
-    font-size: 2.5rem;
-    padding:.5rem 0;
+    font-size: 40px;
+    padding:8px 0;
 }
 
 .menu .box-container .box:hover > *{
@@ -258,6 +260,9 @@ button:hover{
 .contenttekst{
     height: 300px;
     padding-bottom: 200px;
+}
+.footertext2{
+    color: white;
 }
 footer p{
     padding-top:40px;
