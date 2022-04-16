@@ -63,13 +63,14 @@ margin-top:10px;
 }
 .aboutus {
     background-color: #000000;
+    height: 670px;
 }
 button:hover{
       background-color: rgba(156, 194, 161,0.7);
 }
 .banner-area{
   background-image:url(homeimg.png);
-  height: 650px;
+  height: 750px;
   width: 100%;
   position: relative;
   background-position: center;
@@ -141,6 +142,17 @@ button:hover{
 .headingcontactus span{
      color: rgba(156, 194, 161,1);
 }
+.aboutusrow{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+img{
+    max-width: 100%;
+}
+.contentslika{
+     order: 2;
+}
     
 
 .heading {
@@ -168,6 +180,9 @@ button:hover{
     padding-bottom: 5px;
     justify-content: center;
     
+}
+.contactdata p:hover{
+     color:#D3FBD8;
 }
 
 .about .row{
@@ -242,7 +257,7 @@ button:hover{
     padding:20px 10px;
 }
 .podnaslov{
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 10px;
     text-transform: uppercase;
     padding-top:10px;
@@ -253,13 +268,17 @@ button:hover{
     font-family: 'Lora', serif;
     color: white;
     text-align:justify;
-    font-size: 19px;
+    font-size: 20px;
     padding-bottom: 5px;
     justify-content: center;
 }
 .contenttekst{
-    height: 300px;
-    padding-bottom: 200px;
+    height: 450px;
+    padding-left: 55px;
+}
+.contentslika{
+    padding-bottom: 70px;
+    margin-bottom: 100px;
 }
 .footertext2{
     color: white;
