@@ -14,7 +14,7 @@
     <body>
         <!--header starts here-->
         <header>
-             <img  class="logo" src="img/logo.png"  alt="logo" width=180>
+             <img class="logo" src="img/logo.png"  alt="logo" width=180>
             <!-- navigation starts here-->
             <nav>
                 <ul class="nav_link">
@@ -43,9 +43,36 @@
         
         <!-- booking section start here-->
         <section class="booking">
-        
-        
-        
+            <h1 class="bookingheading">
+                <span>online</span> rezervacija
+            </h1>
+            <form>
+                <div class="elem-group">
+                    <label for="name">Vaše ime</label>
+                    <input type="text" id="name"  placeholder="name" pattern=[A-Z\a-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                    <label for="email">Vaš email</label>
+                     <input type="email" id="email"  placeholder="email" required>
+                </div>
+                <div class="elem-group">
+                    <label for="phone">Vaš telefon</label>
+                    <input type="tel" id="phone" placeholder="060-00-00000" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                </div>
+                <div class="elem-group inlined">
+                    <label for="adult">odrasli</label>
+                    <input type="number" id="adult"placeholder="1" min="1" required>
+        	    </div>
+                <div class="elem-group inlined">
+                    <label for="child">deca</label>
+                    <input type="number" id="child"  placeholder="0" min="0" required>
+               </div>
+
+              <label for="message">Poruka za nas:</label>
+                <textarea id="message" placeholder="Tell us anything else that might be important." required></textarea>
+                <br>
+            <button class="bookingbutton">Rezerviši sada!</button>
+          </form>
         </section>
         
    
