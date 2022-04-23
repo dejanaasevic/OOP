@@ -10,7 +10,7 @@
 li,a,button{
     font-family: 'Lora', serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     color: #EDF0F1;
     text-decoration: none
 }
@@ -22,7 +22,14 @@ header{
     align-items: center;
     padding: 30px 10%;
     padding-left: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 .logo{
     cursor: pointer;
     margin-right: auto;
@@ -55,6 +62,7 @@ button{
     border-radius:50px;
     cursor: pointer;
 }
+
 .btn{
 margin-left: 0px;
 margin-top:10px;
@@ -297,9 +305,14 @@ footer{
     color: white;
 }
 form{
-width: 700px;
+  width: 700px;
   margin: 0 auto;
   padding: 50px;
+}
+.contactusform{
+  width: 500px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 div.elem-group {
   margin: 20px 0;

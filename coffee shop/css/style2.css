@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: inherit;
+}
+.icons{
+    list-style: none;
+}
+.banner-area{
+  background-image:url(homeimg.png);
+  height: 750px;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.content-area{
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.content{
+    text-align: left;
+    padding: 100px;
+    color: #FFFFFF;
+    font-family: 'Lora', serif;
+}
+.content h1{
+    font-size: 80px;
+}
+
+.content p{
+    font-size: 20px;
+}
+.contactuscontentheading span {
+    color:white;
+    padding-left: 10px;
+}
+
+.moto{
+  background:#080808;
+  height: 150px;
+  width: 100%;
+    padding: 50px 100px;
+}
+
+.moto-content p{
+    text-align:left;
+    color: #FFFFFF;
+    font-size: 40px;
+    justify-content: center;
+}
+.icons li{
+    display: inline-block;
+    padding: 10px 5px;
+}
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a:hover {
+    color:#D3FBD8;
+}
+.contactbtn{
+    color:black;
+    height: 670px;
+    
+}
+.contactdata{
+    padding: 20px;
+    padding-bottom: 50px;
+
+}
+.contactdata p{
+    font-size: 18px;
+    color: white;
+}
+.contactdata p:hover{
+    color: white;
+    color:#D3FBD8;
+}
+
+
+header{
+     background-color: #000000;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    padding-left: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+li,a,button{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #EDF0F1;
+    text-decoration: none
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: inherit;
+}
+.icons{
+    list-style: none;
+}
+.icons li{
+    display: inline-block;
+    padding: 10px 5px;
+}
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 17px;
+}
+
+.nav_link li a:hover {
+    color:#D3FBD8;
+}
+.contactbtn{
+   padding: 9px 25px;
+    margin-left: 20px;
+    background-color: rgba(156, 194, 161,0.8);
+    border: none;
+    border-radius:50px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    margin-left: 20px;
+    color:white;
+}
+.contactbtn:hover{
+    background-color: rgba(156, 194, 161,0.5);
+}
+
+.contact{
+    background-color: black;
+}
+.headingcontactus{
+    height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    padding-top: 50px;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.headingcontactus span{
+    color: rgba(156, 194, 161,1);
+}
+.contantusrow {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+ .contactuscontentheading{
+     display: flex;
+     justify-content: center;
+    font-size: 40px;
+    margin-top:30px;
+    margin-bottom:30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(156, 194, 161,1);
+}
+ button{
+    padding: 10px 250x;
+    width: 504px; height: 50px;
+    margin-top: 17px;
+    border: 2px solid rgba(156, 194, 161,0.8);
+    background: none;
+    cursor: pointer;
+    font-family: 'Lora', serif;
+    font-weight: 495;
+    font-size: 16px;
+    color: white;
+}
+button:hover{
+background:rgba(156, 194, 161,0.8);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top:30px;
+    margin-bottom:30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+h3{
+    display: flex;
+    justify-content:center;
+    font-size: 20px;
+    padding-top:30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+form{
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contactusform{
+    padding-top: 2px;
+    margin-right: 130px;
+}
+
+div .group{
+    margin: 20px 0;
+}
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid ;
+  font-size: 18px;
+  font-family: 'Lora';
+  width: 500px;
+  padding: 10px;
+}
+textarea {
+  height: 70px;
+}
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.authorcontent{
+    margin-right:300x;
+}
+  
+.footertext2{
+    color: white;
+}
+footer p{
+    padding-top:40px;
+}
+footer{
+    text-align: center;
+    background-color: #080808;
+    height: 300px;
+}
