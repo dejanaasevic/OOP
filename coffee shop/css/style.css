@@ -272,6 +272,14 @@ img{
     font-family: 'Roboto', sans-serif;
     color: rgba(156, 194, 161,1);
 }
+.radnovreme{
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    padding-top:10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
 .contenttekst p{
     font-family: 'Lora', serif;
     color: white;
@@ -285,6 +293,11 @@ img{
     padding-left: 55px;
 }
 .contentslika{
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+}
+.contentslika2{
+    padding-top: 50px;
     padding-bottom: 70px;
     margin-bottom: 100px;
 }
