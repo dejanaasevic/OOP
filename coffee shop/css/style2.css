@@ -261,18 +261,9 @@ input, select, textarea {
 textarea {
   height: 70px;
 }
-footer{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.authorcontent{
-    margin-right:300x;
-}
-  
 .footertext2{
     color: white;
+    font-size: 19px;
 }
 footer p{
     padding-top:40px;
@@ -280,5 +271,8 @@ footer p{
 footer{
     text-align: center;
     background-color: #080808;
-    height: 300px;
+    height: 130px;
+}
+.authorcontent{
+    margin-right:300x;
 }
