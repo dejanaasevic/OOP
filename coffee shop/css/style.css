@@ -53,6 +53,7 @@ html{
 
 .nav_link li a:hover {
     color:#D3FBD8;
+    transition: 0.7s;
 }
 button{
     padding: 9px 25px;
@@ -74,7 +75,8 @@ margin-top:10px;
     height: 620px;
 }
 button:hover{
-      background-color: rgba(156, 194, 161,0.5);
+    background-color: rgba(156, 194, 161,0.5);
+    transition: 0.7s;
 }
 .banner-area{
   background-image:url(homeimg.png);
@@ -191,6 +193,7 @@ img{
 }
 .contactdata p:hover{
      color:#D3FBD8;
+    transition: 0.7s;
 }
 
 .about .row{
@@ -241,19 +244,23 @@ img{
 .menu .box-container .box:hover{
     background:#000000;
     color: white;
+    transition: 0.7s;
     
 }
 .menu .box-container .box h3:hover{
     color: white;
+    transition: 0.7s;
 }
 .menu .box-container .box .price:hover{
     color:white;
     font-size: 40px;
     padding:8px 0;
+    transition: 0.7s;
 }
 
 .menu .box-container .box:hover > *{
     color:var(--black);
+    transition: 0.7s;
 }
 .about .row{
     display: flex;

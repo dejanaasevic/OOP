@@ -80,6 +80,7 @@ html{
 
 .nav_link li a:hover {
     color:#D3FBD8;
+    transition: 0.7;
 }
 .contactbtn{
     color:black;
@@ -92,12 +93,13 @@ html{
 
 }
 .contactdata p{
-    font-size: 18px;
+    font-size: 19px;
     color: white;
 }
 .contactdata p:hover{
     color: white;
     color:#D3FBD8;
+    transition: 0.7;
 }
 
 
@@ -147,6 +149,7 @@ html{
 
 .nav_link li a:hover {
     color:#D3FBD8;
+    transition: 0.7;
 }
 .contactbtn{
    padding: 9px 25px;
@@ -163,6 +166,7 @@ html{
 }
 .contactbtn:hover{
     background-color: rgba(156, 194, 161,0.5);
+    transition: 0.7;
 }
 
 .contact{
@@ -214,9 +218,11 @@ body{
     font-weight: 495;
     font-size: 16px;
     color: white;
+    transition: 0.7s;
 }
 button:hover{
 background:rgba(156, 194, 161,0.8);
+transition: 0.7;
 }
 h2{
     display: flex;
