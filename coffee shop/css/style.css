@@ -11,7 +11,7 @@ li,a,button{
     font-family: 'Lora', serif;
     font-weight: 500;
     font-size: 16px;
-    color: #EDF0F1;
+    color: #FFFF;
     text-decoration: none
 }
 
@@ -398,4 +398,94 @@ textarea {
 }
 .bookingheading span{
  color: rgba(156, 194, 161,1);
+}
+
+#carticon{
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 29px;
+}
+
+.cart{
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: white;
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+}
+
+.carttitle{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.cartbox{
+    display: flex;
+    grid-template-columns: 30% 50% 80%;
+    align-items: center;
+    gap:16px;
+    margin-top: 16px;
+}
+.cartimg{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+.detailbox{
+    display: grid;
+    grid-row-gap: 8px;
+}
+.cartproductname{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.cartprice{
+    font-weight: 500;
+    font-size: 18px;
+}
+.cartquantity{
+    border: 1px solid;
+    outline-color: black;
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+#removecart{
+    cursor: pointer;
+}
+.totalcart{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 24px;
+    border-top: 1px;
+}
+.totaltitle{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.totalprice{
+    margin-left: 8px;
+    font-size: 18px;
+    
+}
+.btnbuy{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#cartclose{
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    cursor: pointer;
 }
