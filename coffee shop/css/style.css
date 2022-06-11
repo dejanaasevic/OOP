@@ -177,6 +177,20 @@ img{
 .heading span{
     color: rgba(156, 194, 161,1);
 }
+
+.headingmenu {
+    text-align: center;
+    color: #FFF;
+    background: #000;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    padding-top: 50px;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.headingmenu span{
+    color: rgba(156, 194, 161,1);
+}
 .contactdata{
      flex:1 1 45rem;
     padding:5rem 2rem;

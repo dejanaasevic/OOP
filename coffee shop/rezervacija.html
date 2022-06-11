@@ -8,6 +8,8 @@
         <meta name= viewport content= width=device-width initial-scale=1>
         <!-- css file -->
         <link rel="stylesheet" href="css/style.css">
+        <!--javascript file-->
+        <script src="js/script.js"></script>
     </head>
    <body>
         <!--header starts here-->
@@ -37,6 +39,32 @@
                 </div>
             </div>
         </div>
+       <!-- work time here-->
+        <section class="aboutus" id="onama">
+         <h1 class="headingaboutus">
+                <span>radno</span> vreme
+         </h1>
+            <div class="aboutusrow">
+                <img class="contentslika2" src="img/mocafrappe.png" width="550px" alt="coffee">
+                <div class="contenttekst">
+                    <h3 class="podnaslov">vreme je za našu kafu!</h3>
+                    <h4 class="radnovreme">radnim danima: 6h-23h</h4>
+                    <h4 class="radnovreme">vikendom: 9h-23h</h4>
+                    <a href="conactus.html#contact"><button class="btn">kontaktiraj nas</button></a>
+                </div>
+            </div>
+        </section>
+        <!--work time ends here-->
+
+       <!-- quote starts here-->
+        
+        <div class="moto">
+            <div class="moto-content">
+                <p>naš moto:</p>
+                <p>| Nikad ne reci 'ne' kafi</p>
+            </div>
+        </div>
+        <!-- quote ends here-->
         <!-- booking section start here-->
         <section class="booking" id="booking">
             <h1 class="bookingheading">
@@ -53,7 +81,7 @@
                 </div>
                 <div class="elem-group">
                     <label for="phone">Vaš telefon</label>
-                    <input type="tel" id="phone" placeholder="060-00-00000" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                    <input type="tel" id="phone" placeholder="060-00-00000" pattern=(06[0-9]{1}-[0-9]{2}-[0-9]{5}) required>
                 </div>
                 <div class="elem-group inlined">
                     <label for="adult">odrasli</label>
@@ -67,12 +95,15 @@
               <label for="message">Poruka za nas:</label>
                 <textarea id="message" placeholder="Tell us anything else that might be important." required></textarea>
                 <br>
-            <button class="bookingbutton">rezerviši sada!</button>
+            <button type="button" onclick="myTest()" class="bookingbutton"> rezerviši sada!</button>
           </form>
         </section>
         <footer>
         <p class="footertext2">Created By DejanaSevic | All Rights Reserved</p>
-        <a href="index.html#menu"><button class="btn">meni</button></a>
+            <ul class="icons">
+                    <li><a href="https://www.pinterest.com/dejanaasevic/"><img class="icon"  src="img/pinterest.png"></a></li>
+                    <li><a href="https://www.instagram.com/dejanaasevic/"><img class="icon" src="img/instagram.png"></a></li>
+                </ul>
         </footer>
   </body>
 </html>
